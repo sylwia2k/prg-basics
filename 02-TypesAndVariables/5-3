@@ -1,0 +1,7 @@
+a=int(input('a = '))
+b=int(input('b = '))
+c=int(input('c = '))
+cuboid_volume =  2*(a*b+b*c+c*a)
+cuboid_surface_area = a*b*c
+print(f'The volume of a cube with sides {a}, {b}, {c} is {cuboid_volume}')
+print(f'The surface area of a cube with sides {a}, {b}, {c} is {cuboid_surface_area}')

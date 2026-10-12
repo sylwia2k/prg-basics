@@ -1,4 +1,7 @@
 import math
 h = float(input("your height in meters: "))
 d = 3.57 *  math.sqrt(h)
-print(d)
+print("distance to the horizon:", d)
+
+h2 = 20 + h
+print("distance from the horizon, while standin at a height of 20m:", h2)
