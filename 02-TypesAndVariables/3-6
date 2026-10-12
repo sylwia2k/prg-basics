@@ -1,0 +1,4 @@
+import math
+h = float(input("your height in meters: "))
+d = 3.57 *  math.sqrt(h)
+print(d)
