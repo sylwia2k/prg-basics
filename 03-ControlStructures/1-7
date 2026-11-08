@@ -1,0 +1,14 @@
+basic_salary = 5000
+total_salary = 0
+
+is_bonus = input('Does the employee receive a bonus? (Y/N): ') == 'Y'
+
+if is_bonus:
+    bonus_percentage = float(input('Enter the bonus percentage (e.g., 30 for 30%): '))
+    total_salary = basic_salary + (basic_salary * (bonus_percentage / 100))
+else:
+    total_salary = basic_salary
+
+print(f'Basic salary: PLN {basic_salary}')
+print(f'Bonus included? {"Yes" if is_bonus else "No"}')
+print(f'Total salary: PLN {total_salary}')
